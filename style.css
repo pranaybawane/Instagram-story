@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+#mainSection{
+    border: 1px solid rgb(189, 187, 187);
+    width: 450px;
+    height: 530px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+#userInfo{
+
+    
+    display: flex;
+    gap: 14px;
+    
+}
+
+#userInfo #fruitmartLogo {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(237, 229, 229);
+}
+#userInfo h3{
+
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+
+}
+#userInfo p{
+
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+
+
+}
+
+#post{
+    width: 450px ;
+    height: 360px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+#postDesc{
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#postActions{
+    display: flex;
+    justify-content: space-between;
+    
+}
